@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  background-color: #cff1ef;
+  justify-content: center;
+}
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #3b6978;
+  background-color: #cff1ef;
+  font-size: 30px;
+  font-family: cursive;
+  transition: all 0.5s;
+}
+
+.heading:hover {
+    font-size: 35px;
+}
+
+.container > ul {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #204051;
+  background-color: #cff1ef;
+}
+
+.container > ul > li {
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  transition: all 1s;
+}
+
+.container > ul > li > a {
+  text-decoration: none;
+}
+
+.container > ul > li:hover {
+  color: #142850;
+  background-color: #cff1ef;
+  font-size: 25px;
+  
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pic {
+  padding: 30px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.about {
+  background-color: teal;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.about > div {
+  width: 35%;
+  display: flex;
+  flex: 1;
+}
+
+.about > .addinfo {
+    padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+
+.about > .addinfo > .quest {
+    font-size: 30px;
+    font-style: italic;
+    margin: 0;
+    font-family: cursive;
+}
+
+.about > .addinfo > .ans {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    padding-bottom: 30px;
+    font-family: cursive;
+}
+
+@media all and (max-width: 400px) {
+  
+  .pic {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .about > .addinfo > .quest {
+    font-size: 15px;
+    font-style: italic;
+    margin: 0;
+    font-family: cursive;
+}
+
+.about > .addinfo > .ans {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    padding-bottom: 30px;
+    font-family: cursive;
+}
+  
+}
+
